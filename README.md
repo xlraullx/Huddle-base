@@ -23,7 +23,7 @@ Usuário deve ser capaz de:
 - Design do desktop:
 ![alt text](src/design/desktop-design.jpg)
 
-- Design do mobile:
+- Design do mobile:   
 ![alt text](src/design/mobile-design.jpg)
 
 - Com interação do mouse:
@@ -45,7 +45,7 @@ Tive dificuldades no alinhamento do texto no mobile e também com o border dos i
 
 ## Resolução do exercício
 
-- Site da resolução:
+- Site da resolução: https://xlraullx.github.io/Huddle-base/
 
 ## Autor 
 <p align="center">
