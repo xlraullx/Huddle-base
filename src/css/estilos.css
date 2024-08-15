@@ -15,7 +15,7 @@ header .logo{
 .container{
     display: flex;
     justify-content: center;
-    margin: 80px;
+    margin: 80px 0 0 80px;
 }
 
 .main{
@@ -61,6 +61,7 @@ header .logo{
 
 footer{
     display: flex;
+    margin-top: 20px;
     gap: 15px;
     max-width: 1610px;
     justify-content: end;
