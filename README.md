@@ -45,7 +45,7 @@ Tive dificuldades no alinhamento do texto no mobile e também com o border dos i
 
 ## Resolução do exercício
 
-- Site da resolução:
+- Site da resolução: https://xlraullx.github.io/Huddle-base/
 
 ## Autor 
 <p align="center">
