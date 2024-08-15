@@ -1,0 +1,83 @@
+html{
+    background: url(../images/bg-desktop.svg) no-repeat center center;
+    background-size: cover;
+    font-size: 62.5%;
+    background-color: hsl(257, 40%, 49%);
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+header .logo{
+    margin: 60px 0 0 80px;
+    width: 210px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.main{
+    display: flex;
+}
+
+.info{
+    margin: 45px 0 0 50px;
+    color: #fff;
+    max-width: 515px;
+}
+
+.info h2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.info p{
+    font-family: "Open Sans", sans-serif;
+    line-height: 26px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.info .bnt{
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 5rem;
+    width: 200px;
+    height: 55px;
+    color:  hsl(257, 40%, 49%);
+    font-size: 2rem;
+    transition: ease-in-out 0.3s;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.info .bnt:hover{
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+footer{
+    display: flex;
+    gap: 15px;
+    max-width: 1610px;
+    justify-content: end;
+    font-size: 2.2rem;
+}
+
+footer i{
+    color: #fff;
+    text-align: center;
+    width: 45px;
+    border-radius: 50%;
+    padding: 10px;
+    border: solid 1px #fff;
+    transition: ease-in-out 0.3s;
+}
+
+footer i:hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
