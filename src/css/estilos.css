@@ -1,13 +1,12 @@
 html{
-    background: url(../images/bg-desktop.svg) no-repeat center center;
-    background-size: cover;
+    background: url(../images/bg-desktop.svg) no-repeat center center / cover;
     font-size: 62.5%;
     background-color: hsl(257, 40%, 49%);
     height: 100vh;
     font-family: "Poppins", sans-serif;
 }
 
-header .logo{
+.logo{
     margin: 60px 0 0 80px;
     width: 210px;
 }
@@ -59,7 +58,7 @@ header .logo{
     background-color: hsl(300, 69%, 71%);
 }
 
-footer{
+.contatos{
     display: flex;
     margin-top: 20px;
     gap: 15px;
@@ -68,7 +67,7 @@ footer{
     font-size: 2.2rem;
 }
 
-footer i{
+.contatos i{
     color: #fff;
     text-align: center;
     width: 45px;
@@ -78,7 +77,7 @@ footer i{
     transition: ease-in-out 0.3s;
 }
 
-footer i:hover{
+.contatos i:hover{
     color: hsl(300, 69%, 71%);
     border-color: hsl(300, 69%, 71%);
 }
