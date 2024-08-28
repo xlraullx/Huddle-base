@@ -2,8 +2,11 @@ html{
     background: url(../images/bg-desktop.svg) no-repeat center center / cover;
     font-size: 62.5%;
     background-color: hsl(257, 40%, 49%);
-    height: 100vh;
     font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
 }
 
 .logo{
@@ -14,7 +17,8 @@ html{
 .container{
     display: flex;
     justify-content: center;
-    margin: 80px 0 0 80px;
+    align-items: center;
+    height: calc(100% - 150px);
 }
 
 .main{
@@ -60,9 +64,8 @@ html{
 
 .contatos{
     display: flex;
-    margin-top: 20px;
+    margin-top: 90px;
     gap: 15px;
-    max-width: 1610px;
     justify-content: end;
     font-size: 2.2rem;
 }
